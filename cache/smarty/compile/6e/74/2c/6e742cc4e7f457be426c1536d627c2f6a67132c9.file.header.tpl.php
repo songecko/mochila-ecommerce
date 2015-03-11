@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-06 00:07:41
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-10 23:58:02
          compiled from "D:\www\php_workspace\mochila-ecommerce\themes\theme948\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:213654f9361deb3e99-49740737%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6e742cc4e7f457be426c1536d627c2f6a67132c9' => 
     array (
       0 => 'D:\\www\\php_workspace\\mochila-ecommerce\\themes\\theme948\\header.tpl',
-      1 => 1396342260,
+      1 => 1426046270,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_54f9361e0536f1_42497469',
   'variables' => 
   array (
     'lang_iso' => 0,
@@ -47,8 +49,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'right_column_size' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_54f9361e0536f1_42497469',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_54f9361e0536f1_42497469')) {function content_54f9361e0536f1_42497469($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'D:\\www\\php_workspace\\mochila-ecommerce\\tools\\smarty\\plugins\\function.implode.php';
 ?>

@@ -109,16 +109,15 @@
 		<module name="watermark"/>
 	</modules>
 	<modules type="partner">
-		<module name="addshoppers"/>
 		<module name="adyen"/>
 		<module name="affinityitems"/>
-		<module name="alliance3"/>
 		<module name="authorizeaim"/>
 		<module name="avalaratax"/>
 		<module name="bluepay"/>
 		<module name="bluesnap"/>
 		<module name="boxdropshipment"/>
 		<module name="browsi"/>
+		<module name="brinkscheckout"/>
 		<module name="clickline"/>
 		<module name="desjardins"/>
 		<module name="dpdpoland"/>
@@ -133,7 +132,7 @@
 		<module name="firstdata"/>
 		<module name="gadwords"/>
 		<module name="ganalytics"/>
-		<module name="giveit"/>
+		<module name="giveit"/> 
 		<module name="globkurier"/>
 		<module name="gointerpay"/>
 		<module name="hipay"/>
@@ -144,6 +143,7 @@
 		<module name="klikandpay"/>
 		<module name="kwixo"/>
 		<module name="loyaltylion"/>
+		<module name="mapubfacile"/>
 		<module name="merchantware"/>
 		<module name="mondialrelay"/>
 		<module name="moneybookers"/>
@@ -163,7 +163,9 @@
 		<module name="prestastats"/>
 		<module name="psphipay"/>
 		<module name="realexredirect"/>
+		<module name="reforestaction"/>
 		<module name="riskified"/>
+		<module name="sarbacanedesktop"/>
 		<module name="sendinblue"/>
 		<module name="seur"/>
 		<module name="shopgate"/>
@@ -173,7 +175,6 @@
 		<module name="socolissimo"/>
 		<module name="sofortbanking"/>
 		<module name="syspay"/>
-		<module name="textmaster"/>
 		<module name="tntcarrier"/>
 		<module name="trustly"/>
 		<module name="trustpilot"/>
