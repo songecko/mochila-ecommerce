@@ -21,18 +21,19 @@ class BuenSalvaje extends Module
 		$this->description = $this->l('Módulo del sitio Buen Salvaje');
 	
 		$this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
-	
-		if (!Configuration::get('BUENSALVAJE'))
-			$this->warning = $this->l('No name provided');
 	}
 	
 	public function install()
-	{	
-		return parent::install() &&
-		$this->registerHook('displayHeader');
+	{
+	 	return (parent::install() && $this->registerHook('header'));
+	}
+
+	public function uninstall()
+	{
+		return (parent::uninstall() && $this->unregisterHook('header'));
 	}
 	
-	public function hookDisplayHeader()
+	public function hookHeader($params)
 	{
 		$this->context->controller->addCSS($this->_path.'css/buensalvaje.css', 'all');
 	}  

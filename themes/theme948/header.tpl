@@ -48,10 +48,13 @@
 		<link rel="stylesheet" href="{$css_uri}" type="text/css" media="{$media}" />
 	{/foreach}
 {/if}
-		{$HOOK_HEADER}
+		{$HOOK_HEADER}		
 		<link rel="stylesheet" href="http{if Tools::usingSecureMode()}s{/if}://fonts.googleapis.com/css?family=Open+Sans:300,600" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css' />
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,100,500,600,700,300,800,900' rel='stylesheet' type='text/css' />
+		
+		<link rel="stylesheet" href="{$modules_dir}/buensalvaje/css/buensalvaje.css" type="text/css" media="all" />
+		
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
