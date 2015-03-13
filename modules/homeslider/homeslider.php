@@ -784,7 +784,7 @@ class HomeSlider extends Module
 						'label' => $this->l('Select a file'),
 						'name' => 'image',
 						'lang' => true,
-						'desc' => sprintf($this->l('Maximum image size: %s.', ini_get('upload_max_filesize')))
+						'desc' => sprintf($this->l('Maximum image size: %s.'), ini_get('upload_max_filesize'))
 					),
 					array(
 						'type' => 'text',

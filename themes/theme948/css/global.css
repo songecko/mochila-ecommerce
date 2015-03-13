@@ -9107,6 +9107,13 @@ table#cart_summary .gift-icon {
 #order-opc .delivery_option > div > table.resume td.delivery_option_logo {
   width: 97px;
   padding-left: 21px;
+  min-width: 280px;
+}
+#order .delivery_option > div > table.resume td.delivery_option_logo img,
+#order-opc .delivery_option > div > table.resume td.delivery_option_logo img {
+	max-height: 98px;
+	margin: 0 auto;
+	display: block;
 }
 #order .delivery_option > div > table.resume td.delivery_option_price,
 #order-opc .delivery_option > div > table.resume td.delivery_option_price {

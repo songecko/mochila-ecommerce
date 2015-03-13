@@ -13,12 +13,137 @@
 	<atom:link href="http://www.prestashop.com/blog/es/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.prestashop.com/blog/es</link>
 	<description></description>
-	<lastBuildDate>Tue, 10 Mar 2015 08:30:54 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Mar 2015 15:17:31 +0000</lastBuildDate>
 	<language>es-ES</language>
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.8.1</generator>
 	<item>
+		<title>Google Analytics: primeros pasos en el comercio electrónico mejorado</title>
+		<link>https://www.prestashop.com/blog/es/google-analytics-primeros-pasos-en-el-comercio-electronico-mejorado/</link>
+		<comments>https://www.prestashop.com/blog/es/google-analytics-primeros-pasos-en-el-comercio-electronico-mejorado/#comments</comments>
+		<pubDate>Thu, 12 Mar 2015 08:30:28 +0000</pubDate>
+		<dc:creator><![CDATA[Kunle Campbell (Guest Contributor)]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=12669</guid>
+		<description><![CDATA[<p>El comercio electrónico mejorado es una funcionalidad de comercio electrónico recientemente introducida en Google Analytics que permite recopilar y analizar los valiosos datos transaccionales y de comportamiento del comercio electrónico. En concreto, el comercio electrónico mejorado ayuda a los gestores de tiendas online y especialistas en marketing a comprender mejor el comportamiento del cliente y [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/google-analytics-primeros-pasos-en-el-comercio-electronico-mejorado/">Google Analytics: primeros pasos en el comercio electrónico mejorado</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>El comercio electrónico mejorado es una funcionalidad de comercio electrónico <a href="http://analytics.blogspot.co.uk/2014/05/better-data-better-decisions-enhanced.html" target="_blank">recientemente introducida</a> en Google Analytics que permite recopilar y analizar los valiosos datos transaccionales y de comportamiento del comercio electrónico.</p>
+<p>En concreto, el comercio electrónico mejorado ayuda a los gestores de tiendas online y especialistas en marketing a comprender mejor el comportamiento del cliente y la eficacia de sus estrategias de merchandising. Proporciona una visión única de:</p>
+<ul style="padding-left:30px">
+<li>El número de visitantes que vieron productos específicos</li>
+<li>El número de usuarios que añadieron o eliminaron un producto de su carrito de la compra</li>
+<li>El número de transacciones completadas o canceladas</li>
+</ul>
+<p>Además, el comercio electrónico mejorado te permite seguir las conversiones en el producto, el valor medio del pedido e incluso la restitución de niveles de acción.<br />
+<span id="more-12669"></span><br />
+El comercio electrónico mejorado hace más fácil aprovechar esta información al generar una serie de informes de embudo, a través del uso de la dimensión del ID de producto y el soporte de Google Tag Manager, todo disponible a través de una cuenta estándar con Universal Analytics habilitado. Pero aún más importante, estos informes te muestran dónde es más conveniente enfocar tus esfuerzos para mejorar el embudo de conversión.</p>
+<p>En esta publicación te mostraré:</p>
+<ul>
+<ol style="padding-left:0">I. <a href="#los-beneficios-del-seguimiento-del-comercio-electronico-mejorado" style="text-decoration:underline;color:#010101">Los beneficios del seguimiento del comercio electrónico mejorado</a></ol>
+<ol style="padding-left:0">II. <a href="#el-modelo-de-medicion-del-comercio-electronico-mejorado" style="text-decoration:underline;color:#010101">El modelo de medición del comercio electrónico mejorado</a></ol>
+<ol style="padding-left:0">III. <a href="#la-habilitacion-del-comercio-electronico-mejorado-en-google-analytics" style="text-decoration:underline;color:#010101">La habilitación del comercio electrónico mejorado en Google Analytics</a></ol>
+</ul>
+<h2 style="color:#5a96b0">Antes de empezar</h2>
+<div class="row">
+<div class="col-sm-4 col-xs-12 text-center">
+		<img class=" wp-image-19713 aligncenter" alt="Antes de empezar" src="http://www.prestashop.com/blog/es/files/2015/03/01.jpg" width="204" height="362" />
+	</div>
+<div class="col-sm-8 col-xs-12">
+		Para recopilar datos de comercio electrónico mejorado en Google Analytics, necesitas modificar tu código de seguimiento de GA in situ actual para recopilar las mediciones y dimensiones que se describen a continuación. Cubriré las especificaciones de seguimiento de código en mi próxima publicación: “<strong>Guía intermedia para el comercio electrónico mejorado</strong>”</p>
+<p>		Una vez que el seguimiento de comercio electrónico mejorado esté instalado y habilitado, podrás acceder a las funcionalidades cuando te identifiques en Google Analytics en: <strong>Conversiones -&gt; Comercio electrónico</strong>
+	</div>
+</div>
+<div id="los-beneficios-del-seguimiento-del-comercio-electronico-mejorado"></div>
+<h2 style="color:#5a96b0">I. Beneficios del comercio electrónico mejorado</h2>
+<p>Echemos un vistazo a algunos de los beneficios del comercio electrónico mejorado:</p>
+<ul>
+<ol style="padding-left:0"><strong>1.</strong> El seguimiento del comercio electrónico mejorado proporciona una completa gama de datos de compromiso de comercio electrónico sobre tus clientes con informes a medida, como el informe de &#8220;Comportamiento de compra&#8221;. </ol>
+<ol style="padding-left:0"><strong>2.</strong> El comercio electrónico mejorado te permite crear <strong>listas de productos</strong> que agrupan productos de manera lógica en tu tienda para ayudarte a organizarlos y ordenarlos.</ol>
+<ol style="padding-left:0"><strong>3.</strong> El informe de rendimiento de productos proporciona mediciones de compra como: Evaluación al detalle del carrito, evaluación al detalle de la compra, vistas de la lista de productos, vistas de detalle de productos, productos añadidos al carrito, productos eliminados del carrito y pantallas de compra de productos para ayudar a revisar el rendimiento de tu página web.</ol>
+<ol style="padding-left:0"><strong>4.</strong> Si quieres medir el impacto del marketing interno y externo de tus productos, &#8220;<strong>Informes de marketing</strong>” puede ayudarte. Para refrescarte la memoria, el marketing interno se realiza a través de promociones internas y el marketing externo a través de cupones a nivel de pedido, cupones a nivel de producto y páginas webs afiliadas.</ol>
+</ul>
+<p>Los siguientes informes están incluidos en el comercio electrónico mejorado, disponible a través de Google Analytics, y pueden ayudarte a obtener los beneficios anteriores:</p>
+<h4 style="color:#d05043">1. Informe de comportamiento de compra</h4>
+<p>El informe de comportamiento de compra proporciona información completa sobre tu rendimiento del embudo de compra. Esto muestra el número de sesiones de usuario en cada etapa de tu embudo de compra, el número de sesiones que se movieron desde un paso al siguiente y cuántos usuarios abandonaron el embudo en cada etapa.</p>
+<p>Este informe se puede encontrar navegando por:<br />
+<strong>Conversiones &gt; Comercio electrónico &gt; Análisis de compra &gt; Comportamiento de compra</strong></p>
+<p><img class="aligncenter  wp-image-19714" alt="Informe de comportamiento de compra" src="http://www.prestashop.com/blog/es/files/2015/03/02-1024x719.jpg" width="560" height="393" /></p>
+<h4 style="color:#d05043">2. Informe de comportamiento en la pantalla de compra</h4>
+<p><strong>El informe de comportamiento en la pantalla de compra</strong> proporciona una visión del flujo visitante/sesión y el compromiso con tu proceso de compra. Esto muestra el número de sesiones de usuario en cada etapa de tu proceso de compra, es decir, el número de sesiones que se movieron desde facturación, a través de envío, pago, revisión y transacciones.</p>
+<p>El informe se puede encontrar navegando por: <strong>Conversiones &gt; Comercio electrónico &gt; Análisis de compra &gt; Comportamiento en la pantalla de compra</strong></p>
+<p><img class="aligncenter  wp-image-19715" alt="Informe de comportamiento de compra" src="http://www.prestashop.com/blog/es/files/2015/03/03-1024x736.jpg" width="560" height="402" /></p>
+<h4 style="color:#d05043">3. Informe de rendimiento de productos</h4>
+<div class="row">
+<div class="col-sm-4 col-xs-12 text-center">
+		<img src="http://www.prestashop.com/blog/es/files/2015/03/04.jpg" alt="Informe de rendimiento de productos" width="254" height="383" class="aligncenter size-full wp-image-19716" />
+	</div>
+<div class="col-sm-8 col-xs-12">
+		Este informe proporciona una visión del rendimiento de productos individuales en tu embudo de ventas. Presenta dos vistas de nivel superior: el rendimiento de ventas (por ejemplo, cantidad vendida, ingresos) y el comportamiento de los visitantes (por ejemplo, visitas a productos, acciones en el carrito).<br />
+		Ambas vistas del informe de rendimiento de productos se pueden encontrar navegando por:<br />
+		<strong>Conversiones &gt; Comercio electrónico &gt; Análisis de compra &gt; Rendimiento de productos</strong>
+	</div>
+</div>
+<p>Aquí puedes ver cómo se visualiza este informe:</p>
+<p><img src="http://www.prestashop.com/blog/es/files/2015/03/05.jpg" alt="Informe de rendimiento de productos" width="788" height="393" class="aligncenter size-full wp-image-19717" /></p>
+<h4 style="color:#d05043">4. Informe de rendimiento de la lista de productos</h4>
+<div class="row">
+<div class="col-sm-4 col-xs-12 text-center">
+		<img class="aligncenter  wp-image-19718" alt="Informe de rendimiento de la lista de productos" src="http://www.prestashop.com/blog/es/files/2015/03/06.jpg" width="218" height="298" />
+	</div>
+<div class="col-sm-8 col-xs-12">
+		Este informe te permite medir el impacto de ventas de productos agrupados usando aspectos como la posición en la lista de productos y el nombre de la lista de productos.</p>
+<p>		Este informe se puede encontrar navegando por: </p>
+<p>		<strong>Conversiones &gt; Comercio electrónico &gt; Análisis de compra &gt; Rendimiento de la lista de productos</strong>
+	</div>
+</div>
+<p>Aquí puedes ver cómo se visualiza este informe:</p>
+<p><img src="http://www.prestashop.com/blog/es/files/2015/03/07-1024x421.jpg" alt="Informe de rendimiento de la lista de productos" width="700" height="287" class="aligncenter size-large wp-image-19719" /></p>
+<h4 style="color:#d05043">5. Informe de marketing de afiliados y cupones:</h4>
+<p>Este informe te permite seguir y proporcionar informes en transacciones generadas mediante el marketing de afiliados y cupones.<br />
+Este informe se puede encontrar navegando por:<br />
+<strong>Conversiones &gt; Comercio electrónico &gt; Marketing (Puedes encontrar cuatro informes en este nivel, pero mostraré un ejemplo del primero de ellos) &gt; Promoción interna</strong></p>
+<p>A continuación, puedes ver el siguiente informe que muestra las impresiones, clics, transacciones, ingresos y más para cada promoción:</p>
+<p><img src="http://www.prestashop.com/blog/es/files/2015/03/08.jpg" alt="Informe de marketing de afiliados y cupones" width="778" height="364" class="aligncenter size-full wp-image-19720" /></p>
+<p>La misma estructura de informe se aplica a otros informes en la sección &#8220;Marketing&#8221;.</p>
+<div id="el-modelo-de-medicion-del-comercio-electronico-mejorado"></div>
+<h2 style="color:#5a96b0">II. Modelo de medición del comercio electrónico mejorado</h2>
+<p>A continuación, vamos a echar un vistazo a las interacciones del usuario y a los comandos de comercio electrónico mejorado (o datos que JavaScript comunica/envía a Google Analytics) a través del embudo de conversión de tu sitio de comercio electrónico:</p>
+<p><img class="aligncenter  wp-image-19721" alt="Modelo de medición del comercio electrónico mejorado" src="http://www.prestashop.com/blog/es/files/2015/03/09.jpg" width="472" height="531" /></p>
+<p>Para implementar correctamente el comercio electrónico mejorado, es clave entender los comandos anteriores en cada etapa del embudo. </p>
+<div id="la-habilitacion-del-comercio-electronico-mejorado-en-google-analytics"></div>
+<h2 style="color:#5a96b0">III. Habilitar el comercio electrónico mejorado en Google Analytics </h2>
+<p><strong>Paso 1:</strong><br />
+Ve a la sección &#8220;Administrador&#8221; de Google Analytics y selecciona &#8220;Configuración de comercio electrónico&#8221;:</p>
+<p><img src="http://www.prestashop.com/blog/es/files/2015/03/10.jpg" alt="Habilitar el comercio electrónico mejorado en Google Analytics - Paso 1" width="769" height="486" class="aligncenter size-full wp-image-19722" /></p>
+<p><strong>Paso 2:</strong><br />
+Habilita comercio electrónico y haz clic en &#8220;Siguiente&#8221;: </p>
+<p><img src="http://www.prestashop.com/blog/es/files/2015/03/11.jpg" alt="Habilitar el comercio electrónico mejorado en Google Analytics - Paso 2" width="776" height="325" class="aligncenter size-full wp-image-19723" /></p>
+<p><strong>Paso 3:</strong><br />
+Habilita comercio electrónico mejorado, después define los PASOS DE EMBUDO y pulsa &#8220;Enviar&#8221; para guardar los cambios de configuración:</p>
+<p><img src="http://www.prestashop.com/blog/es/files/2015/03/12.jpg" alt="Habilitar el comercio electrónico mejorado en Google Analytics - Paso 3" width="785" height="578" class="aligncenter size-full wp-image-19724" /></p>
+<p><strong>Nota:</strong></p>
+<p>Definir los pasos de embudo es opcional, pero si optas por ello, las etiquetas en el embudo deberían ser las mismas que las definidas en tu etiqueta ec.js para evaluar &#8220;el proceso de compra&#8221;.<br />
+Entraré en más detalles sobre las particularidades del código en mi próximo artículo: “<strong>IGuía intermedia para el comercio electrónico mejorado</strong>.”<br />
+Estas etiquetas aparecerán en el informe de &#8220;Comportamiento en la pantalla de compra&#8221; (como se describe anteriormente).</p>
+<h2 style="color:#5a96b0">Conclusión</h2>
+<p>Para sacar el máximo partido al comercio electrónico mejorado, puedes planificar por adelantado algunas acciones específicas para:</p>
+<ul>
+<ol style="padding-left:0"><strong>1.</strong> Llevar a cabo una <strong>revisión exhaustiva</strong> de tu sitio desde un punto de vista comercial y de producto, en lugar de una perspectiva de página por página.</ol>
+<ol style="padding-left:0"><strong>2.</strong> Tomar nota de los <strong>elementos clave en tu embudo de compras</strong>, por ejemplo cómo agrupas productos en paquetes de productos, qué comportamientos clave son importantes para ti, etc.</ol>
+<ol style="padding-left:0"><strong>3.</strong> <strong>Actualizar tu etiquetado.</strong> ISi deseas poder seguir todas las nuevas interacciones que el comercio electrónico mejorado puede aportarte, necesitarás configurar las etiquetas específicas en el código universal de Google Analytics o la capa de datos del gestor de etiquetas de Google (que se incluirá en la parte 2 de este artículo). </ol>
+<ol style="padding-left:0"><strong>4.</strong> <strong>Metadatos de ID de producto.</strong> Antes los productos se solían categorizar y luego se añadía el número de referencia. Sin embargo, el comercio electrónico mejorado amplía las capacidades de los datos del producto permitiendo que la información de referencia se actualice. Averigua cómo puedes actualizar regularmente esta información y qué estructura se requiere.</ol>
+</ul>
+<p>¿Has empezado a utilizar el comercio electrónico mejorado? ¿Cómo está funcionando? ¡Transmítenos tus comentarios!</p>
+<p>¿Listo para empezar? Descarga el módulo Google Analytics directamente desde tu back office o a través de PrestaShop Addons.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/google-analytics-primeros-pasos-en-el-comercio-electronico-mejorado/">Google Analytics: primeros pasos en el comercio electrónico mejorado</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/google-analytics-primeros-pasos-en-el-comercio-electronico-mejorado/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>Tres grandes razones para visitarnos en eShow Barcelona el 25 y 26 de marzo</title>
 		<link>https://www.prestashop.com/blog/es/tres-grandes-razones-para-visitarnos-en-eshow-barcelona-el-25-y-26-de-marzo/</link>
 		<comments>https://www.prestashop.com/blog/es/tres-grandes-razones-para-visitarnos-en-eshow-barcelona-el-25-y-26-de-marzo/#comments</comments>
@@ -462,153 +587,6 @@ Si estás pensando en vender tus creaciones digitales online, repasa los consejo
 <p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/las-cinco-ventajas-de-vender-productos-digitales-online/">5 ventajas de vender productos digitales online</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
 ]]></content:encoded>
 			<wfw:commentRss>https://www.prestashop.com/blog/es/las-cinco-ventajas-de-vender-productos-digitales-online/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>8 paneles de Google Analytics para e-commerce</title>
-		<link>https://www.prestashop.com/blog/es/ocho-paneles-de-google-analytics-para-e-commerce/</link>
-		<comments>https://www.prestashop.com/blog/es/ocho-paneles-de-google-analytics-para-e-commerce/#comments</comments>
-		<pubDate>Mon, 16 Feb 2015 09:30:20 +0000</pubDate>
-		<dc:creator><![CDATA[Kunle Campbell (Guest Contributor)]]></dc:creator>
-				<category><![CDATA[Consejos E-commerce]]></category>
-
-		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=12566</guid>
-		<description><![CDATA[<p>Google Analytics es una verdadera mina de datos: ¡te ayudará a entender el comportamiento de compra, el tráfico de referencia y las tasas de conversión de tu tienda online! Pero para poder aprovechar al máximo estos datos necesitas algo de organización. ¿Queréis saber cuál es mi herramienta favorita para obtener una visión rápida y clara [...]</p>
-<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/ocho-paneles-de-google-analytics-para-e-commerce/">8 paneles de Google Analytics para e-commerce</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>Google Analytics es una verdadera mina de datos: ¡te ayudará a entender el comportamiento de compra, el tráfico de referencia y las tasas de conversión de tu tienda online! Pero para poder aprovechar al máximo estos datos necesitas algo de organización. ¿Queréis saber cuál es mi herramienta favorita para obtener una visión rápida y clara de la situación? &#8220;Los paneles&#8221;. Aquí tenéis los ocho que más me gustan.<br />
-<span id="more-12566"></span></p>
-<h4 style="color: #ff9900">Conoce el rendimiento de tu tienda online con los paneles</h4>
-<p><img class="alignleft  wp-image-19591" alt="GA" src="http://www.prestashop.com/blog/es/files/2015/02/0.GA_.png" width="326" height="398" />Revisar todos los datos sobre tráfico y conversiones es coser y cantar con los paneles de Google Analytics. Esta colección de aplicaciones personalizables tiene una utilidad muy clara: obtener resúmenes de los informes más importantes de tu cuenta.</p>
-<p>Los paneles permiten a gestores de tiendas online y especialistas en marketing:</p>
-<ul style="padding-left: 30px">
-<li>Consultar métricas e informes regularmente</li>
-<li>Compartir los informes con otros interesados (como la directiva, el equipo de marketing o el propietario de la tienda)</li>
-<li>Ver informes y cambiar segmentos y rangos de fechas con total flexibilidad</li>
-</ul>
-<p>Hay que tener en cuenta que los paneles de Google Analytics:</p>
-<ul style="padding-left: 30px">
-<li>Admiten un máximo de 12 widgets (cuadros) por informe</li>
-<li>Están limitados a un máximo de 10 filas por widget</li>
-<li>Cada cuenta de Analytics puede tener hasta 20 paneles</li>
-</ul>
-<p>Estos son ocho paneles muy recomendables para e-commerce&#8230; ¡que encontraréis gratis en la <a href="https://www.google.com/analytics/gallery/#posts/search/%3F_.type%3DDASHBOARD%26_.start%3D0/" target="_blank">galería de soluciones de Google Analytics</a>:</p>
-<h2 style="color: #068cc9"><a style="font-family: 'Roboto Condensed', Tahoma, Verdana, sans-serif;font-size: 28px;color: #068cc9;text-decoration: underline" href="https://www.google.com/analytics/gallery/#posts/search/%3F_.viewId%3DfJa880IAQseTLF0SddcsmQ" target="_blank">1. Panel de e-commerce</a></h2>
-<p>Creado por Blast Analytics &amp; Marketing</p>
-<p><img class="aligncenter size-large wp-image-19592" alt="Ecommerce Dashboard By Blast Analytics Marketing" src="http://www.prestashop.com/blog/es/files/2015/02/1.-Ecommerce-Dashboard-By-Blast-Analytics-Marketing-1024x522.png" width="700" height="356" /></p>
-<p>Un magnífico punto de referencia para empezar la semana o terminar el mes. Resume métricas clave como:</p>
-<ul style="padding-left: 30px">
-<li>Visitas</li>
-<li>Visitas e ingresos de productos desde el móvil (incluidas tabletas)</li>
-<li>Visitas e ingresos de productos por fuente/medio</li>
-<li>Tasas de conversión de e-commerce</li>
-<li>Ingresos totales</li>
-<li>Transacciones</li>
-<li>Valor medio del pedido</li>
-<li>Valor por visita</li>
-<li>Los diez productos que generan más ingresos</li>
-</ul>
-<p>Te permite controlar el rendimiento y saber cuáles son los productos que mejor se venden y los canales que más convierten.</p>
-<h2 style="color: #068cc9"><a style="font-family: 'Roboto Condensed', Tahoma, Verdana, sans-serif;font-size: 28px;color: #068cc9;text-decoration: underline" href="https://www.google.com/analytics/gallery/#posts/search/%3F_.viewId%3D8USYBWAaQ5eDjl_XaKeLmQ" target="_blank">2. Panel de e-commerce móvil</a></h2>
-<p>Creado por Justin Cutroni</p>
-<p><img class="aligncenter size-large wp-image-19593" alt="Mobile Ecommerce Dashboard  By Justin Cutroni" src="http://www.prestashop.com/blog/es/files/2015/02/2.-Mobile-Ecommerce-Dashboard-By-Justin-Cutroni--1024x552.png" width="700" height="377" /></p>
-<p>Si quieres entender el comportamiento de los usuarios que usan dispositivos móviles, este es tu panel.<br />
-Sus widgets incluyen:</p>
-<ul style="padding-left: 30px">
-<li>Ingresos de tráfico móvil</li>
-<li>Campañas de móvil con mejor rendimiento (requiere etiquetado UTM)</li>
-<li>Palabras clave orgánicas desde dispositivos móviles</li>
-<li>Tasa de rebote frente a sesión media</li>
-<li>Páginas más visitadas desde dispositivos móviles</li>
-<li>Ingresos de móvil y valor medio de pedido (AOV)</li>
-<li>Productos más comprados desde dispositivos móviles</li>
-</ul>
-<h2 style="color: #068cc9"><a style="font-family: 'Roboto Condensed', Tahoma, Verdana, sans-serif;font-size: 28px;color: #068cc9;text-decoration: underline" href="https://www.google.com/analytics/gallery/#posts/search/%3F_.viewId%3DoMS4jWBURDG4J9RakRx5-Q" target="_blank">3. Panel SEO de e-commerce</a></h2>
-<p>Creado por Vagelis Varfis | Nudge Digital</p>
-<p><img class="aligncenter size-large wp-image-19601" alt="Ecommerce SEO Dashboard" src="http://www.prestashop.com/blog/es/files/2015/02/3.-Ecommerce-SEO-Dashboard-1024x602.png" width="700" height="411" /></p>
-<p>A los responsables del SEO para e-commerce les encantará este panel. Pero hay que tener en cuenta que el 80 o 90% de las veces, &#8220;no se facilita&#8221; el tráfico orgánico por palabras clave&#8230; lo que quiere decir que los datos se basan en una muestra. ¿Quieres una visión más detallada? Usa estos datos en combinación con las herramientas para webmasters de Google.</p>
-<p>Además de los cuatro widgets centrados en el tráfico y los ingresos, este panel incorpora otros específicos para SEO:</p>
-<ul style="padding-left: 30px">
-<li>Buscadores que generan transacciones (excluido tráfico de marca)</li>
-<li>Fuentes de tráfico que generan transacciones (excluido tráfico de marca)</li>
-<li>Palabras clave orgánicas no de marca que generan ingresos (requiere configuración)</li>
-<li>Palabras clave de búsqueda orgánica no de marca con el mayor valor medio de pedido (requiere configuración)</li>
-<li>Términos de búsqueda orgánica no de marca más populares</li>
-<li>Términos internos de búsqueda que han generado ingresos</li>
-</ul>
-<h2 style="color: #068cc9"><a style="font-family: 'Roboto Condensed', Tahoma, Verdana, sans-serif;font-size: 28px;color: #068cc9;text-decoration: underline" href="https://www.google.com/analytics/gallery/#posts/search/%3F_.viewId%3DijKy1DMRQSuqjek-w4WfHQ" target="_blank">4. [DP6] Campañas de pago en buscadores</a></h2>
-<p>Creado por Thiago Doin (@thiagodoin)</p>
-<p><img class="aligncenter size-large wp-image-19594" alt="[DP6] Paid Search Campaigns By Thiago Doin (@thiagodoin)" src="http://www.prestashop.com/blog/es/files/2015/02/4.-DP6-Paid-Search-Campaigns-By-Thiago-Doin-@thiagodoin--1024x540.png" width="700" height="369" /></p>
-<p>Este panel es perfecto para saber cómo ha funcionado una campaña AdWords de un vistazo. Su idioma original es el portugués pero se pueden mostrar las etiquetas en cualquier idioma. Los widgets incluyen:</p>
-<ul style="padding-left: 30px">
-<li>Ingresos procedentes de AdWords</li>
-<li>Gasto en AdWords</li>
-<li>Transacciones, CPA y conversiones</li>
-<li>Visitas procedentes de AdWords</li>
-<li>Las diez regiones que más compran vía AdWords</li>
-<li>Los diez productos más comprados vía AdWords</li>
-</ul>
-<h2 style="color: #068cc9"><a style="font-family: 'Roboto Condensed', Tahoma, Verdana, sans-serif;font-size: 28px;color: #068cc9;text-decoration: underline" href="https://www.google.com/analytics/gallery/#posts/search/%3F_.viewId%3D9pw2EKPSRBqpVQ2iMcoB1g" target="_blank">5. Panel de crecimiento del tráfico </a></h2>
-<p>Creado por Cemal Buyukgokcesu</p>
-<p><img class="aligncenter size-large wp-image-19595" alt="Engagement &amp; Loyalty Dashboard, Traffic Growth Dashboard  By Cemal Buyukgokcesu" src="http://www.prestashop.com/blog/es/files/2015/02/5.-Engagement-Loyalty-Dashboard-Traffic-Growth-Dashboard-By-Cemal-Buyukgokcesu--1024x548.png" width="700" height="374" /></p>
-<p>El panel sobre crecimiento del tráfico aporta una visión completa de la evolución del tráfico. Informe de widgets</p>
-<ul style="padding-left: 30px">
-<li>Datos sobre visitas</li>
-<li>Visitantes activos</li>
-<li>Fuentes de tráfico</li>
-<li>Fuentes de tráfico por zona geográfica</li>
-<li>Tráfico móvil desglosado por SO (iOS, Android o Windows)</li>
-<li>Tráfico por dispositivo móvil</li>
-<li>Los diez primeros dominios de referencia</li>
-<li>Las diez primeras referencias sociales</li>
-</ul>
-<h2 style="color: #068cc9"><a style="font-family: 'Roboto Condensed', Tahoma, Verdana, sans-serif;font-size: 28px;color: #068cc9;text-decoration: underline" href="https://www.google.com/analytics/gallery/#posts/search/%3F_.viewId%3DerNMqvwYQIWKDiA7dkHbJQ" target="_blank">6. Panel de redes sociales</a></h2>
-<p>Creado por Justin Cutroni</p>
-<p><img class="aligncenter size-large wp-image-19596" alt="Social Media Dashboard By Justin Cutroni" src="http://www.prestashop.com/blog/es/files/2015/02/6.-Social-Media-Dashboard-By-Justin-Cutroni--1024x550.png" width="700" height="375" /></p>
-<p>Este panel ofrece una instantánea del tráfico procedente de referencias de redes sociales. Entre sus widgets más útiles destacan:</p>
-<ul style="padding-left: 30px">
-<li>Acciones de redes sociales en el sitio</li>
-<li>Valor del tráfico de redes sociales</li>
-<li>Tráfico de redes sociales desde dispositivos móviles</li>
-<li>Ingresos y valor por visita procedentes de redes sociales</li>
-<li>Tráfico social que &#8220;lee un artículo&#8221;</li>
-</ul>
-<h2 style="color: #068cc9"><a style="font-family: 'Roboto Condensed', Tahoma, Verdana, sans-serif;font-size: 28px;color: #068cc9;text-decoration: underline" href="https://www.google.com/analytics/gallery/#posts/search/%3F_.viewId%3DpONDBX8LSseVK2Zq-WdVMw" target="_blank">7. Panel de correo electrónico</a></h2>
-<p>Creado por Blast Analytics &amp; Marketing</p>
-<p><img class="aligncenter size-large wp-image-19597" alt="Email Dashboard By Blast Analytics &amp; Marketing" src="http://www.prestashop.com/blog/es/files/2015/02/7.-Email-Dashboard-By-Blast-Analytics-Marketing--1024x561.png" width="700" height="383" /></p>
-<p>Este panel es indispensable si usas emails marketing para impulsar las ventas de tu tienda (¡y deberías hacerlo!). Sus widgets más útiles aportan datos esenciales sobre el tráfico generado por los emails marketing:</p>
-<ul style="padding-left: 30px">
-<li>Ingresos por email marketing (basado en la asignación de la última interacción)</li>
-<li>Tasa de rebote del tráfico procedente de correos: te ayuda a evaluar la eficacia del texto de tu email y de tu página de aterrizaje</li>
-<li>Informe sobre la página de aterrizaje con datos del tráfico procedente de emails</li>
-<li>Informe de rendimiento por país (puedes cambiarlo por &#8220;región&#8221; si solo vendes en un país)</li>
-<li>Productos que más ingresos generan vía email marketing</li>
-<li>¿Tus campañas de email incluyen (¡deberían!) enlaces con etiquetas UTM? Usa su widget para obtener un informe con las diez mejores campañas de correo</li>
-</ul>
-<h2 style="color: #068cc9"><a style="font-family: 'Roboto Condensed', Tahoma, Verdana, sans-serif;font-size: 28px;color: #068cc9;text-decoration: underline" href="https://www.google.com/analytics/gallery/#posts/search/%3F_.viewId%3D0iewn0tTTZ2dpJq3LNQwtA" target="_blank">8. Panel de e-commerce todo en uno</a></h2>
-<p>Creado por Paolo Margari</p>
-<p><img class="aligncenter size-large wp-image-19598" alt="All-in-one Ecommerce Dashboard By Paolo Margari" src="http://www.prestashop.com/blog/es/files/2015/02/8.-All-in-one-Ecommerce-Dashboard-By-Paolo-Margari--1024x547.png" width="700" height="373" /></p>
-<p>Este panel creado por Paolo Margari es muy fácil de entender, así que es perfecto para los miembros de tu equipo que no tengan conocimientos técnicos, como la junta directiva.</p>
-<p>Aquí tienes un resumen de sus widgets, claros y sencillos:</p>
-<ul style="padding-left: 30px">
-<li>Número único de visitantes (usuarios) o transacciones</li>
-<li>Número de transacciones</li>
-<li>Tasa de conversión de e-commerce</li>
-<li>Ingresos totales</li>
-<li>Valor medio del pedido (<span style="font-style: italic">AOV</span>)</li>
-<li>Desglose de ingresos por dispositivo: <span style="font-style: italic">sobremesa, tableta y móvil</span></li>
-<li>Transacciones y tasa de conversión desglosadas por dispositivo: <span style="font-style: italic">sobremesa, tableta y móvil</span></li>
-<li>Transacciones por ciudad</li>
-<li>Tasas de conversión de e-commerce por medio y dispositivo</li>
-<li>Transacciones por medio</li>
-<li>Fuentes y medio del tráfico que genera ingresos</li>
-<li>Transacciones y tasa de conversión de e-commerce por fuente/medio</li>
-</ul>
-<p>¿Un último consejo? Para aprovechar al máximo estos paneles usa siempre <a href="https://support.google.com/analytics/answer/1033867?hl=es">etiquetas UTM en tus campañas</a>: permiten controlar el medio y las fuentes de la campaña y obtener informes más precisos.</p>
-<p>¿Ya usas alguno de estos paneles? Cuéntanos cuáles son tus favoritos.</p>
-<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/ocho-paneles-de-google-analytics-para-e-commerce/">8 paneles de Google Analytics para e-commerce</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://www.prestashop.com/blog/es/ocho-paneles-de-google-analytics-para-e-commerce/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

@@ -665,6 +665,9 @@
 {addJsDef currentDate=$smarty.now|date_format:'%Y-%m-%d %H:%M:%S'}
 {if isset($combinations) && $combinations}
 	{addJsDef combinations=$combinations}
+	{addJsDef combinationsFromController=$combinations}
+	{addJsDef displayDiscountPrice=$display_discount_price}
+	{addJsDefL name='upToTxt'}{l s='Up to' js=1}{/addJsDefL}
 {/if}
 {if isset($combinationImages) && $combinationImages}
 	{addJsDef combinationImages=$combinationImages}
@@ -686,10 +689,12 @@
 {addJsDef maxQuantityToAllowDisplayOfLastQuantityMessage=$last_qties|intval}
 {addJsDef minimalQuantity=$product->minimal_quantity|intval}
 {addJsDef noTaxForThisProduct=$no_tax|boolval}
+{addJsDef customerGroupWithoutTax=$customer_group_without_tax|boolval}
 {addJsDef oosHookJsCodeFunctions=Array()}
 {addJsDef productHasAttributes=isset($groups)|boolval}
 {addJsDef productPriceTaxExcluded=($product->getPriceWithoutReduct(true)|default:'null' - $product->ecotax)|floatval}
 {addJsDef productBasePriceTaxExcluded=($product->base_price - $product->ecotax)|floatval}
+{addJsDef productBasePriceTaxExcl=($product->base_price|floatval)}
 {addJsDef productReference=$product->reference|escape:'html':'UTF-8'}
 {addJsDef productAvailableForOrder=$product->available_for_order|boolval}
 {addJsDef productPriceWithoutReduction=$productPriceWithoutReduction|floatval}

@@ -29,8 +29,7 @@
 <div class="facebook_block_inset">
 	<h4 >{l s='Follow us on facebook' mod='blockfacebook'}</h4>
 	<div class="facebook-fanbox">
-		<div class="fb-like-box" data-href="http://www.facebook.com/{$facebookurl|escape:'html':'UTF-8'}" data-height="185" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false" connections="5">
-		</div>
+		<div class="fb-like-box" data-href="{$facebookurl|escape:'html':'UTF-8'}" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
 	</div>
 </div>
 </div>
