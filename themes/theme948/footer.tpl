@@ -33,7 +33,24 @@
 			<!-- Footer -->
 			<div class="footer-container">
 				<footer id="footer"  class="container">
-					<div class="row">{$HOOK_FOOTER}</div>
+					<div class="row">
+						{$HOOK_FOOTER}
+						<!-- <section id="pages" class="footer-block col-xs-12 col-sm-3">
+  							<h4>Links</h4>
+							<ul class="toggle-footer" style="">
+								<li>
+									<a target="_blank" href="https://www.facebook.com/mochilasbuensalvaje">
+										<span>Facebook</span>
+									</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://www.pinterest.com/mochilasbs">
+										<span>Twitter</span>
+									</a>
+								</li>
+							</ul>
+						</section> -->
+					</div>
 				</footer>
 			</div><!-- #footer -->
 		</div><!-- #page -->

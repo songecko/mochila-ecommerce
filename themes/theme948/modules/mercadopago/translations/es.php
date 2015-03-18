@@ -25,6 +25,5 @@ $_MODULE['<{mercadopago}theme948>payment_execution_93d30959f9bb71d283e37a5b19470
 $_MODULE['<{mercadopago}theme948>payment_execution_2395e9069555d2c7b439750571dd0824'] = 'Confirmar compra';
 $_MODULE['<{mercadopago}theme948>payment_return_e6b65ca65dbd452a9b59d15b51ed2473'] = 'Está a un paso de realizar la compra!';
 $_MODULE['<{mercadopago}theme948>payment_return_41ab102895ca12cf7bd438c8b7530d04'] = 'El precio de su pedido es de:';
-$_MODULE['<{mercadopago}theme948>payment_return_ff4ceacde99060e23f0ef9c048f0b87b'] = 'Para realizar el pago presione el siguiente botón';
 $_MODULE['<{mercadopago}theme948>payment_return_884f0f63141ed30d9df60433ffc6da05'] = 'Se produjo una falla en el envio de su pedido. Por favor contáctese con nosotros.';
 $_MODULE['<{mercadopago}theme948>payment_return_64430ad2835be8ad60c59e7d44e4b0b1'] = 'Soporte al cliente';

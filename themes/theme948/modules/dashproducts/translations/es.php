@@ -16,7 +16,7 @@ $_MODULE['<{dashproducts}theme948>dashproducts_2aed3d711270a6ed67d21ec2d7cd4af8'
 $_MODULE['<{dashproducts}theme948>dashproducts_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventas';
 $_MODULE['<{dashproducts}theme948>dashproducts_9e79098315622e58529d664b9a8b3cf8'] = 'Beneficio neto';
 $_MODULE['<{dashproducts}theme948>dashproducts_ed4832a84ee072b00a6740f657183598'] = 'Vistas';
-$_MODULE['<{dashproducts}theme948>dashproducts_2c04f1ad7694378897b98624780327ff'] = 'Añadir al carrito';
+$_MODULE['<{dashproducts}theme948>dashproducts_2c04f1ad7694378897b98624780327ff'] = 'Agregado';
 $_MODULE['<{dashproducts}theme948>dashproducts_ce4ee01637f4279d02d0f232459dc9a4'] = 'Comprados';
 $_MODULE['<{dashproducts}theme948>dashproducts_37be07209f53a5d636d5c904ca9ae64c'] = 'Porcentaje';
 $_MODULE['<{dashproducts}theme948>dashproducts_1eb18ea1d018abef5759cef60ddc289b'] = 'Debe habilitar la opción \"Guardar páginas vistas globales\" del modulo \"Datos para las estadísticas\" con el fin de mostrar los productos más vistos, o utilizar el módulo de Google Analytics.';
