@@ -12,3 +12,4 @@ $_MODULE['<{blockfacebook}theme948>blockfacebook_374fe11018588d3d27e630b2dffb790
 $_MODULE['<{blockfacebook}theme948>preview_31fde7b05ac8952dacf4af8a704074ec'] = 'Vista previa';
 $_MODULE['<{blockfacebook}theme948>preview_374fe11018588d3d27e630b2dffb7909'] = 'Síguenos en Facebook';
 $_MODULE['<{blockfacebook}theme948>blockfacebook_a4aa9244ea53b5d916dfd8f024d11e22'] = 'Síguenos en Facebook';
+$_MODULE['<{blockfacebook}theme948>blockfacebook_7b8222a350b2463e4d5880eefec730ad'] = 'Síguenos en Pinterest';

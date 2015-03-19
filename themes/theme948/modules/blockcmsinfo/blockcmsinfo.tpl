@@ -25,10 +25,10 @@
 {if $infos|@count > 0}
 
 <!-- MODULE Block cmsinfo -->
-<div id="cmsinfo_block" class="col-xs-8" >
+<div id="cmsinfo_block" class="col-xs-4">
 <div class="clearfix row">
 		{foreach from=$infos item=info}
-			<div class="col-xs-6"><div class="cmsinfo_block_inset">{$info.text}</div></div>
+			<div class="col-xs-12"><div class="cmsinfo_block_inset">{$info.text}</div></div>
 		{/foreach}
 </div>
 </div>

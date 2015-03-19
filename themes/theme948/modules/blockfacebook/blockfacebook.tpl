@@ -26,11 +26,21 @@
 {if $facebookurl != ''}
 <div id="fb-root"></div>
 <div id="facebook_block" class="col-xs-4">
-<div class="facebook_block_inset">
-	<h4 >{l s='Follow us on facebook' mod='blockfacebook'}</h4>
-	<div class="facebook-fanbox">
-		<div class="fb-like-box" data-href="{$facebookurl|escape:'html':'UTF-8'}" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+	<div class="facebook_block_inset">
+		<h4 >{l s='Follow us on facebook' mod='blockfacebook'}</h4>
+		<div class="facebook-fanbox">
+			<div class="fb-like-box" data-href="{$facebookurl|escape:'html':'UTF-8'}" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+		</div>
 	</div>
 </div>
+<div id="facebook_block" class="col-xs-4">
+	<div class="facebook_block_inset">
+		<h4 >{l s='Follow us on Pinterest' mod='blockfacebook'}</h4>
+		<div class="facebook-fanbox">
+			<a data-pin-do="embedUser" href="http://www.pinterest.com/mochilasbs/"></a>
+			<!-- Please call pinit.js only once per page -->
+			<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+		</div>
+	</div>
 </div>
 {/if}

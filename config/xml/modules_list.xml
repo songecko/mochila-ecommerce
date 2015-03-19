@@ -116,6 +116,7 @@
 		<module name="bluepay"/>
 		<module name="bluesnap"/>
 		<module name="boxdropshipment"/>
+		<module name="bpostshm"/>
 		<module name="browsi"/>
 		<module name="brinkscheckout"/>
 		<module name="clickline"/>
@@ -125,6 +126,8 @@
 		<module name="ecopresto"/>
 		<module name="envoimoinscher"/>
 		<module name="erpillicopresta"/>
+		<module name="exapaq"/>
+		<module name="expressmailing"/>
 		<module name="feedaty"/>
 		<module name="ferbuy"/>
 		<module name="fianetfraud"/>
@@ -143,6 +146,7 @@
 		<module name="klikandpay"/>
 		<module name="kwixo"/>
 		<module name="loyaltylion"/>
+		<module name="mailjet"/>
 		<module name="mapubfacile"/>
 		<module name="merchantware"/>
 		<module name="mondialrelay"/>
@@ -160,12 +164,14 @@
 		<module name="pigmbhpaymill"/>
 		<module name="powatag"/>
 		<module name="prediggo"/>
+		<module name="prestashippingeasy"/>
 		<module name="prestastats"/>
 		<module name="psphipay"/>
 		<module name="realexredirect"/>
 		<module name="reforestaction"/>
 		<module name="riskified"/>
 		<module name="sarbacanedesktop"/>
+		<module name="sellstrom"/>
 		<module name="sendinblue"/>
 		<module name="seur"/>
 		<module name="shopgate"/>

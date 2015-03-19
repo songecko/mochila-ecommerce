@@ -59,10 +59,10 @@ class MercadoPago extends PaymentModule {
 
     public function create_states() {
         $order_states = array(
-			array('#ccfbff', $this->l('MercadoPago - Transação em Andamento'), '', '000010000'),
-			array('#c9fecd', $this->l('MercadoPago - Transação Concluída'), 'payment', '110010010'),
-			array('#fec9c9', $this->l('MercadoPago - Transação Cancelada'), 'order_canceled', '010010000'),
-			array('#fec9c9', $this->l('MercadoPago - Transação Rejeitada'), 'payment_error', '010010000')
+			array('#CCCEFF', $this->l('MercadoPago - Pago en curso'), '', '000010000'),
+			array('#c9fecd', $this->l('MercadoPago - Pago completado'), 'payment', '110010010'),
+			array('#fec9c9', $this->l('MercadoPago - Pago cancelado'), 'order_canceled', '010010000'),
+			array('#fec9c9', $this->l('MercadoPago - Pago rechazado'), 'payment_error', '010010000')
 		);
 
 		$languages = Language::getLanguages();
@@ -487,17 +487,19 @@ class MercadoPago extends PaymentModule {
         $customerPag = new Customer(intval($cart->id_customer));
         $currencies = Currency::getCurrencies();
         $currency = $this->getCurrency();
-	
+		$this_path_ssl = (Configuration::get('PS_SSL_ENABLED') ? 'https://' : 'http://') . htmlspecialchars($_SERVER['HTTP_HOST'], ENT_COMPAT, 'UTF-8') . __PS_BASE_URI__ . 'modules/' . $this->name . '/';
+        
         foreach ($currencies as $key => $currency)
             $smarty->assign(
 		array(
 		    'imgBanner' => $this->getBanner(),
 		    'total' => number_format(Tools::convertPrice($cart->getOrderTotal(true, 3), $currency), 2, '.', ''),
-		    'this_path_ssl' => (Configuration::get('PS_SSL_ENABLED') ? 'https://' : 'http://') . htmlspecialchars($_SERVER['HTTP_HOST'], ENT_COMPAT, 'UTF-8') . __PS_BASE_URI__ . 'modules/' . $this->name . '/'
+		    'this_path_ssl' => $this_path_ssl
 		)
 	    );
 
-        return $this->display(__file__, 'confirm.tpl');
+        Tools::redirect($this_path_ssl.'/validation.php');
+        //return $this->display(__file__, 'confirm.tpl');
     }
 
     //STEP - generate link to pay

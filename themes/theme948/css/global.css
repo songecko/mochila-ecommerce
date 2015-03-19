@@ -9904,8 +9904,10 @@ div.star.star_hover:after {
 }
 
 #facebook_block,
-#cmsinfo_block {
-  min-height: 344px;
+#facebook_block .facebook_block_inset,
+#cmsinfo_block, 
+#cmsinfo_block .cmsinfo_block_inset {
+  min-height: 405px;
 }
 @media (max-width: 991px) {
   #facebook_block,
