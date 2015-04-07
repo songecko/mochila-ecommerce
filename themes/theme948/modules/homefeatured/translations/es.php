@@ -25,4 +25,4 @@ $_MODULE['<{homefeatured}theme948>homefeatured_d3da97e2d9aee5c8fbe03156ad051c99'
 $_MODULE['<{homefeatured}theme948>homefeatured_4351cfebe4b61d8aa5efa1d020710005'] = 'Ver';
 $_MODULE['<{homefeatured}theme948>homefeatured_2d0f6b8300be19cf35e89e66f0677f95'] = 'Añadir';
 $_MODULE['<{homefeatured}theme948>homefeatured_e0e572ae0d8489f8bf969e93d469e89c'] = 'No hay productos destacados';
-$_MODULE['<{homefeatured}theme948>tab_2cc1943d4c0b46bfcf503a75c44f988b'] = 'Populares';
+$_MODULE['<{homefeatured}theme948>tab_2cc1943d4c0b46bfcf503a75c44f988b'] = 'Destacados';
