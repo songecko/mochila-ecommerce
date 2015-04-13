@@ -773,7 +773,7 @@ function updatePrice()
 		$('.price-ecotax').show();
 	}
 
-	// Unit price are the price per piece, per Kg, per m²
+	// Unit price are the price per piece, per Kg, per mï¿½
 	// It doesn't modify the price, it's only for display
 	if (productUnitPriceRatio > 0)
 	{
@@ -903,7 +903,7 @@ function refreshProductImages(id_product_attribute)
 	else
 		$('#wrapResetImages').stop(true, true).hide();
 
-	$('#thumbs_list_frame').width(parseInt($('#thumbs_list_frame >li').outerWidth(true) * $('#thumbs_list_frame >li').length) + 'px');
+	$('#thumbs_list_frame').width(parseInt($('#thumbs_list_frame >li').outerWidth(true)) + 'px');
 	$('#thumbs_list').trigger('goto', 0);
 	serialScrollFixLock('', '', '', '', 0);
 }
