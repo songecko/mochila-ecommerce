@@ -29,6 +29,14 @@ $(document).ready(function(){
 	highdpi_init();
 	blockHover();
 
+	$('ul.sf-menu li:nth-child(2) a').mouseover(function()
+	{
+		$('ul.sf-menu li:nth-child(1) .submenu-container').show();
+	});/*.mouseout(function()
+	{
+		$('ul.sf-menu li:nth-child(1) .submenu-container').hide();
+	});*/
+	
 	if (typeof quickView !== 'undefined' && quickView)
 		quick_view();
 
