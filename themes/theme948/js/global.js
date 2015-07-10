@@ -32,10 +32,11 @@ $(document).ready(function(){
 	$('ul.sf-menu li:nth-child(2) a').mouseover(function()
 	{
 		$('ul.sf-menu li:nth-child(1) .submenu-container').show();
-	});/*.mouseout(function()
+	});
+	$('ul.sf-menu').mouseleave(function()
 	{
 		$('ul.sf-menu li:nth-child(1) .submenu-container').hide();
-	});*/
+	});
 	
 	if (typeof quickView !== 'undefined' && quickView)
 		quick_view();
@@ -120,6 +121,14 @@ $(document).ready(function(){
 		$(document).on('click', '.back', function(e){
 			e.preventDefault();
 			history.back();
+		});
+
+		
+		$('.color-list-container ul li a').hover(function()
+		{
+			var colorId = $(this).attr('id');
+			$(this).parents('.product-container').find('.product-image-container .product_img_link img').hide();
+			$(this).parents('.product-container').find('.product-image-container .product_img_link img.'+colorId).show();
 		});
 });
 
